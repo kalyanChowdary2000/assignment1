@@ -5,6 +5,7 @@
 rm -rf /root/assignment1/
 #!/bin/bash
 
+
 # Install Node.js and npm
 #!/bin/bash
 
