@@ -3,17 +3,17 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 14 # Or the Node.js version you're using
+      nodejs: 14 # Adjust this if you're using a different version
     commands:
-      - echo Installing dependencies...
+      - echo "Installing dependencies"
       - npm install
   build:
     commands:
-      - echo Build started on `date`
-      - npm run build || echo "No build step needed" # This can be changed based on your app needs
+      - echo "Build started on `date`"
+      - npm run build || echo "No build step required"
   post_build:
     commands:
-      - echo Build completed on `date`
+      - echo "Build completed on `date`"
 
 artifacts:
   files:
