@@ -5,6 +5,11 @@ files:
     destination: /root/assignment1
 
 hooks:
+  BeforeInstall:
+    - location: cleanup.sh
+      timeout: 300
+      runas: root
+
   AfterInstall:
     - location: start_server.sh
       timeout: 300
