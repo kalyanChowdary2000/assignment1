@@ -8,6 +8,7 @@ rm -rf /root/assignment1/
 # Install Node.js and npm
 #!/bin/bash
 
+
 MAX_RETRIES=5
 RETRY_COUNT=0
 
