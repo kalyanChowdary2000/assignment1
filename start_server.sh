@@ -7,7 +7,7 @@ cd /root/assignment1
 npm install
 
 # Start the Node.js app using PM2
-pm2 start index.js --name "backend_server"
+pm2 start "node index.js" --name "backend_server"
 
 # Ensure PM2 restarts the app on system reboots
 pm2 startup systemd
